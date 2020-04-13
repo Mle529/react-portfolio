@@ -10,7 +10,7 @@ function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-slate">
             <div className="container-lg">
-                <a className="navbar-brand" href="/">Michael Le</a>
+                <a className="navbar-brand" href="/react-portfolio">Michael Le</a>
                 <NavToggler />
                 <div className="collapse navbar-collapse" id="navbarLinks">
                     <ul className="navbar-nav ml-auto">

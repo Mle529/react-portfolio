@@ -21,7 +21,7 @@ function Portfolio() {
     return (
         <>
             <div className="content">
-                <Header active="portfolio" />
+                <Header active="/react-portfolio/portfolio" />
                 <section>
                     <div className="container-lg">
                         {
