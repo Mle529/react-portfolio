@@ -8,7 +8,7 @@ function About() {
     return (
         <>
             <div className="content">
-                <Header active="about" />
+                <Header active="/react-portfolio/about" />
                 <AboutContent />
             </div>
             <Footer />
