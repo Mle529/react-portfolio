@@ -1,10 +1,9 @@
 import React from "react";
 
-function Headshot() {
-    // console.log(props.photo);
+function Headshot(props) {
     return (
         <div className="image-shadow">
-            <img src="/assets/images/headshot.jpg" alt="Headshot" className="img-responsive" />
+            <img src={props.photo} alt="Headshot" className="img-responsive" />
         </div>
     )
 }
