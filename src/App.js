@@ -11,13 +11,13 @@ class App extends Component {
         <div>
           <ul>
             <li><Link to="/">About</Link></li>
-            <li><Link to="/portfolio">Portfolio</Link></li>
+            <li><Link to="/#/portfolio">Portfolio</Link></li>
           </ul>
 
           <hr />
 
           <Route exact path="/" component={About} />
-          <Route path="/portfolio" component={Portfolio} />
+          <Route path="/#/portfolio" component={Portfolio} />
         </div>
       </HashRouter>
     );
