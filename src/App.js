@@ -7,7 +7,7 @@ import "./assets/css/style.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter >
         <div>
           <ul>
             <li><Link to="/">About</Link></li>
