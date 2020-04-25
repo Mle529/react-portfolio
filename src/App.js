@@ -10,14 +10,14 @@ class App extends Component {
       <HashRouter >
         <div>
           <ul>
-            <li><Link to="/">About</Link></li>
-            <li><Link to="/#/portfolio">Portfolio</Link></li>
+            <li><Link to="#/">About</Link></li>
+            <li><Link to="#/react-portfolio/portfolio">Portfolio</Link></li>
           </ul>
 
           <hr />
 
           <Route exact path="/" component={About} />
-          <Route path="/#/portfolio" component={Portfolio} />
+          <Route path="#/react-portfolio/portfolio" component={Portfolio} />
         </div>
       </HashRouter>
     );
