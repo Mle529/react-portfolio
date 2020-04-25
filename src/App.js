@@ -7,17 +7,17 @@ import "./assets/css/style.css";
 class App extends Component {
   render() {
     return (
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename="/">
         <div>
           <ul>
-            <li><Link to="/react-portfolio/">About</Link></li>
-            <li><Link to="/react-portfolio/portfolio">Portfolio</Link></li>
+            <li><Link to="/">About</Link></li>
+            <li><Link to="/portfolio">Portfolio</Link></li>
           </ul>
 
           <hr />
 
-          <Route exact path="/react-portfolio/" component={About} />
-          <Route path="/react-portfolio/portfolio" component={Portfolio} />
+          <Route exact path="/" component={About} />
+          <Route path="/portfolio" component={Portfolio} />
         </div>
       </HashRouter>
     );
