@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Route exact path={["/react-portfolio/", "/react-portfolio/about"]} component={About} />
-        <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+        <Route exact path="/react-portfolio/" component={About} />
+        <Route path="/react-portfolio/portfolio" component={Portfolio} />
       </div>
     </Router>
   );
